@@ -98,11 +98,10 @@ class setup:
             return None
 
         raise FileNotFoundError(f'Make ffmpeg.exe available in PATH or in "{osPath.split(__file__)[0]}"')
-    
+
     def main():
         setup.arg()
         setup.getFFMPEG()
-
 
 
 class youtube:
